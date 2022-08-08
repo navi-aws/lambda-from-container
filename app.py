@@ -8,6 +8,6 @@ def handler(event, context):
     return {
         'headers': {'Content-Type' : 'application/json'},
         'statusCode': 200,
-        'body': json.dumps({"message": "Lambda Container image!",
+        'body': json.dumps({"message": "Your app from Container image has run via lambda!",
                             "event": event})
     }
